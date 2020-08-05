@@ -20,3 +20,8 @@ function destructivelyAppendKitten(name) {
     kittens.shift()
     return kittens
   }
+
+  function appendKitten(name) {
+    kittens.append(name)
+    return kittens
+  }
