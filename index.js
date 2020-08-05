@@ -15,3 +15,8 @@ function destructivelyAppendKitten(name) {
     kittens.pop()
     return kittens
   }
+
+  function destructivelyRemoveFirstKitten() {
+    var kittens = kittens.slice(1)
+    return kittens
+  }
