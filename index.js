@@ -11,7 +11,7 @@ function destructivelyAppendKitten(name) {
     return kittens
   }
 
-  function destructivelyRomoveLastKitten(array) {
-    kittens.pop(array)
+  function destructivelyRomoveLastKitten() {
+    kittens.pop()
     return kittens
   }
