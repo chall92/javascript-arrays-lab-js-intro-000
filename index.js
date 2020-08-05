@@ -18,5 +18,6 @@ function destructivelyAppendKitten(name) {
 
   function destructivelyRemoveFirstKitten() {
     var kittens = kittens.slice(1)
+    kittens.slice(1)
     return kittens
   }
