@@ -13,5 +13,4 @@ function destructivelyAppendKitten(name) {
 
   function destructivelyRomoveLastKitten() {
     var kittens = kittens.slice(0, kittens.length -1)
-    return kittens
   }
