@@ -10,3 +10,8 @@ function destructivelyAppendKitten(name) {
     kittens.unshift(name)
     return kittens
   }
+
+  function destructivelyRomoveLastKitten(array) {
+    kittens.pop(-1)
+    return kittens
+  }
